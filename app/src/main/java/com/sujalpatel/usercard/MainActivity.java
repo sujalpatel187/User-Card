@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        profileName = findViewById(R.id.fullname);
+        profileName = findViewById(R.id.username);
         profileEmail=findViewById(R.id.email);
-        profileUsername = findViewById(R.id.username);
+        profileUsername = findViewById(R.id.fullname);
         profilePosition = findViewById(R.id.position);
 
         showUserData();
